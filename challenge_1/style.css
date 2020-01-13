@@ -1,0 +1,40 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 400px;
+}
+
+
+.eachBox {
+  display: inline-block;
+  width: 33.33%;
+  text-align: center;
+  padding: 30px;
+  font-size: 2.0em;
+  border : 0px solid #000000;
+}
+
+.border-top {
+  border-top: 1px solid #000000;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #000000;
+}
+
+.border-right {
+  border-right: 1px solid #000000;
+}
+
+.border-left {
+  border-left: 1px solid #000000;
+}
