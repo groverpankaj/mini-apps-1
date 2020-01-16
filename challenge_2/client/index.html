@@ -1,2 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <h1>Mini App Challenge 2</h1>
+  
+  <!-- <form action="/" method="POST">
+    <textarea name="input" placeholder="JSON Object only" rows="20", cols="150"></textarea>
+    <br />
+    <input type="submit" name="submit" value="submit">
+  </form> -->
 
+  <form action="upload" method="POST" encType="multipart/form-data">
+    <input type="file" name="foo" accept=".json">
+    <br />
+    <input type="submit" name="submit" value="submit">
+  </form>
+  
+    <!-- <form>
+      <input type="file" name="fileInput" id="fileInput" accept=".json">
+      <br />
+      <input type="submit" name="submit" value="submit">
+    </form>   -->
+
+  <script src="app.js"></script>
+</body>
+</html>
 
