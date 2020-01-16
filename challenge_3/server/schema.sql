@@ -1,0 +1,24 @@
+DROP DATABASE IF EXISTS checkoutdb;
+
+CREATE DATABASE checkoutdb;
+
+USE checkoutdb;
+
+CREATE TABLE customers(
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(40) NOT NULL,
+  email VARCHAR(40) NOT NULL,
+  password VARCHAR(10) NOT NULL,
+  addressLineOne VARCHAR(120) NOT NULL,
+  addressLineTwo VARCHAR(120),
+  city  VARCHAR(40) NOT NULL,
+  state VARCHAR(40) NOT NULL,
+  phone VARCHAR(40) NOT NULL,
+  zipCode VARCHAR(5) NOT NULL,
+  creditCardNo VARCHAR(16) NOT NULL,
+  expiryDate VARCHAR(7) NOT NULL,
+  cvvNo INTEGER NOT NULL,
+  billZipCode VARCHAR(5) NOT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id)
+);
